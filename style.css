@@ -60,7 +60,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background: #eeeff1;
-    padding: 15px 100px;
+    padding: 8px 100px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
 }
@@ -72,7 +72,7 @@ header{
 
 }
 .navbar{
-    diplay:flex;
+    display:flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap; 
@@ -169,5 +169,17 @@ header{
     margin: 00.5rem 0 1rem;
     font-size: 1.2rem;
     color: var(--text-color);   
-    
+
 }
+.app-stores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+} 
+.app-stores img{
+    width: 150px;
+    height: auto;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}    
